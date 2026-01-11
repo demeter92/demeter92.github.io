@@ -1,0 +1,26 @@
+.cv {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cv-title {
+    margin: 8px 0 12px;
+    font-size: 1.25rem;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.pdf-embed {
+    width: 100%;
+    height: min(82vh, 1100px);
+    border: 0;
+    border-radius: 12px;
+    background: var(--card);
+}
+
+.pdf-fallback {
+    color: var(--muted);
+    margin: 12px 0 0;
+    font-size: 0.95rem;
+}
+
